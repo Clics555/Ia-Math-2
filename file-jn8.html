@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA de Matemáticas y Física</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>IA de Matemáticas y Física</h1>
+    </header>
+    <main>
+        <section class="contenedor-imagen">
+            <input type="file" id="imagen-problema" accept=".jpg, .jpeg, .png">
+            <button id="analizar-imagen">Analizar imagen</button>
+        </section>
+        <section class="contenedor-texto">
+            <textarea id="texto-problema" placeholder="Escribe el problema aquí"></textarea>
+            <button id="resolver-problema">Resolver problema</button>
+        </section>
+        <section class="contenedor-solucion">
+            <div id="pasos-solucion"></div>
+            <div id="resultado-solucion"></div>
+        </section>
+    </main>
+
+    <!-- Script que carga los estilos y funcionalidades -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
